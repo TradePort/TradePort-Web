@@ -1,4 +1,4 @@
-# Project Title
+# TradePort Web
 
 The blockchain platform for building decentralized smart cities.
 
@@ -58,9 +58,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* Tools used to build the app
 
 ## Contributing
 
@@ -70,7 +68,7 @@ Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of cond
 
 * **Your Name** - *Initial work* - [Your Name](https://github.com/username)
 
-See also the list of [contributors](https://github.com/tradeport/tradeport-web/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/TradePort/TradePort-Web/graphs/contributors) who participated in this project.
 
 ## License
 
