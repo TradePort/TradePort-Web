@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    color: #000000;
+}
+
+a, a:hover, a:focus, a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrapper {
+    position: relative;
+    top: 0;
+    height: 100vh;
+}
+
+/* Sticky Social Icons */
+
+.fixed-plugin {
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    right: -119px;
+    top: 25%;
+    width: 200px;
+}
+
+.sticky li{
+    list-style-type: none;
+    color: #efefef;
+    background: #ffffff;
+    padding: 0px;
+    margin: 20px 0px 0px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    border-top: 2px solid #D3D3D3;
+    border-bottom: 2px solid #D3D3D3;
+    border-left: 2px solid #D3D3D3;
+    border-bottom-left-radius: 5rem;
+    border-top-left-radius: 5rem;
+    cursor: pointer;
+}
+.sticky li:hover{
+    margin-left: -120px;
+}
+.sticky li img{
+    float: left;
+    margin: 5px 5px;
+    margin-right: 10px;
+}
+.sticky li span{
+    padding: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+    line-height: 43px;
+}
+
+/* Header */
+.navbar {
+    height: 70px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+/* Home Section */
+.hero {
+    max-height: 100vh;
+    margin-top: 10rem;
+}
+
+.hero-text {
+    font-weight: 600;
+    font-size: 52px;
+    color: #606060;
+    word-wrap: break-word;
+    letter-spacing: .25rem;
+    line-height: 4rem;
+}
+
+@media(max-width: 480px) {
+    .hero {
+        margin-top: 7rem;
+    }
+
+    .hero-text {
+        font-size: 28px;
+        line-height: 3rem;
+    }
+}
