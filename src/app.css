@@ -4,7 +4,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #606060;
-  background: rgb(208, 213, 218) none repeat scroll 0% 0%;
   font-size: 14px;
   font-weight: 400;
   overflow-x: hidden;
@@ -64,8 +63,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #ffffff;
 }
 
-section {
-  height: 100vh;
+section:not(:last-child) {
+  /* height: 100vh; */
+  border-bottom: 2px solid rgb(208, 213, 218);
 }
 
 .wrapper {
@@ -89,7 +89,7 @@ section {
 /* Hero Section */
 .hero-section {
   padding-top: 150px;
-  background: rgb(208, 213, 218) none repeat scroll 0% 0%;
+  height: 100vh;
 }
 
 .hero-text p {
@@ -101,7 +101,7 @@ section {
 
 .title {
   font-size: 36px;
-  color: #fff;
+  /* color: #fff; */
   font-weight: 700;
 }
 
@@ -115,14 +115,24 @@ section {
 
 /* Goods Section */
 .goods-section {
-  background-color: rgb(7, 18, 35);
-  padding: 300px 0 0px;
+  height: 80vh;
+  /* background-color: rgb(7, 18, 35); */
+  padding: 150px 0;
+}
+
+.goods-section .info {
+  padding: 100px 0;
 }
 
 /* Services Section */
 .services-section {
-  background-color: rgb(15, 29, 51);
-  padding: 300px 0 0px;
+  /* background-color: rgb(15, 29, 51); */
+  height: 80vh;
+  padding: 150px 0;
+}
+
+.services-section .info {
+  padding: 100px 0;
 }
 
 /* Footer */
