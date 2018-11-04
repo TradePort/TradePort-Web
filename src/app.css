@@ -132,7 +132,18 @@ section:not(:last-child) {
 }
 
 .services-section .info {
-  padding: 100px 0;
+  padding: 150px 0;
+}
+
+/* Batering Section */
+.batering-section {
+  /* background-color: rgb(15, 29, 51); */
+  height: 80vh;
+  padding: 150px 0;
+}
+
+.batering-section .info {
+  padding: 60px 0;
 }
 
 /* Footer */
