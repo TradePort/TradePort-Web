@@ -18,47 +18,25 @@ Give examples
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+Install the dependencies
 
 ```
-Give the example
+npm install
 ```
 
-And repeat
+And start application
 
 ```
-until finished
+npm start
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* Tools used to build the app
+* React
+* BlueprintJS
 
 ## Contributing
 
@@ -66,7 +44,7 @@ Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of cond
 
 ## Authors
 
-* **Your Name** - *Initial work* - [Your Name](https://github.com/username)
+* **Mekyle Logen Naidoo** - **Founder and CEO**
 
 See also the list of [contributors](https://github.com/TradePort/TradePort-Web/graphs/contributors) who participated in this project.
 
@@ -76,6 +54,4 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE.md](LIC
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-
+* Thank you to the Bounties Network for the underlying bounties layer that TradePort runs on aswell as all the help and guidance the team has given TradePort.
